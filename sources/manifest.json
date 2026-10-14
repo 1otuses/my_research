@@ -1,0 +1,98 @@
+{
+  "checked_on": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "library_root_relative_to_repo": "../..",
+  "proposal_status": "unvalidated_research_proposal",
+  "execution_constraint": "strict_CTDE_no_runtime_communication",
+  "requested_repository_visibility": "public",
+  "source_documents": [
+    {
+      "library_relative_path": "offline-marl.pdf",
+      "sha256": "02d4eb7ef1791e24c905d5524128963d9e0265065887a24a3ac32969fa517e8d",
+      "bytes": 1359899,
+      "pages": 5,
+      "role": "current_user_proposal",
+      "reading_scope": "full_document",
+      "local_version": null
+    },
+    {
+      "library_relative_path": "MARL/offline/MADiff.pdf",
+      "sha256": "94ffea54db1d1fbafb3c8413b680e5c3e5a6818550cafbb2c317ce16c61604f3",
+      "bytes": 3182816,
+      "pages": 30,
+      "role": "baseline_paper",
+      "reading_scope": "selected_sections",
+      "local_version": "arXiv:2305.17330v5"
+    },
+    {
+      "library_relative_path": "MARL/offline/CLS-DP.pdf",
+      "sha256": "5a32bc41a8887b90d71451909344d8919c82d5c5441d178bb459d03606b21620",
+      "bytes": 4331440,
+      "pages": 8,
+      "role": "closest_latent_coordination_reference",
+      "reading_scope": "selected_sections",
+      "local_version": "arXiv:2606.22982v2"
+    },
+    {
+      "library_relative_path": "MARL/offline/CoFlow.pdf",
+      "sha256": "31eea25177e7eac0b0c782242ab3cf46841a9d50f9c6e5cdc1e3dfd466b38cd1",
+      "bytes": 2830558,
+      "pages": 34,
+      "role": "few_step_coordination_reference",
+      "reading_scope": "selected_sections",
+      "local_version": "arXiv:2605.01457v2"
+    },
+    {
+      "library_relative_path": "MARL/offline/GCD.pdf",
+      "sha256": "2508142980c5e1249781509aa0baa9f68cde05b4c3bc20292fd095051263f293",
+      "bytes": 3420734,
+      "pages": 9,
+      "role": "graph_communication_reference",
+      "reading_scope": "selected_sections",
+      "local_version": null
+    },
+    {
+      "library_relative_path": "MARL/offline/MADiTS.pdf",
+      "sha256": "2abad077677f8f28f4f70f751868ce85923d53dd984d47f3bae2d3e060da4024",
+      "bytes": 1839439,
+      "pages": 28,
+      "role": "trajectory_stitching_reference",
+      "reading_scope": "selected_sections",
+      "local_version": null
+    },
+    {
+      "library_relative_path": "MARL/offline/CoDiMAD.pdf",
+      "sha256": "4ee840985e27b0d254656120d545e1756ee5283907cd9391bcb1bd39d2c7fe8d",
+      "bytes": 1587937,
+      "pages": 8,
+      "role": "privileged_distillation_reference",
+      "reading_scope": "selected_sections",
+      "local_version": "arXiv:2607.09587v1"
+    },
+    {
+      "library_relative_path": "MARL/offline/DoF.pdf",
+      "sha256": "7072c031179a98a2351c9dda65c760ad986fd1d74433130681a61b1db48d3478",
+      "bytes": 4854023,
+      "pages": 39,
+      "role": "decentralized_factorization_reference",
+      "reading_scope": "abstract",
+      "local_version": null
+    },
+    {
+      "library_relative_path": "RL/offline/LDCQ.pdf",
+      "sha256": "91f1bb69c7f3ac1f25a2622041a03ba49d192bfbd5fa2fa26d1fa3dd6610105c",
+      "bytes": 2898120,
+      "pages": 22,
+      "role": "latent_diffusion_reference",
+      "reading_scope": "selected_sections",
+      "local_version": null
+    }
+  ],
+  "baseline": {
+    "repository": "https://github.com/1otuses/madiff",
+    "branch": "main",
+    "commit": "00f88e9caf9cb8921e54f5bc13d0855d0206b537",
+    "verification": "static_code_reading_only",
+    "reproduction_status": "reported_by_user_not_audited_this_run"
+  }
+}

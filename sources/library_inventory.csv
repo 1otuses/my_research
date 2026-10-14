@@ -1,0 +1,151 @@
+library_relative_path,bytes
+LLM/CoT.pdf,829859
+LLM/Constitutional AI_Harmlessness from AI Feedback.pdf,2088111
+LLM/DENOISING DIFFUSION IMPLICIT MODELS.pdf,10857218
+LLM/DIFFUSION POLICIES AS AN EXPRESSIVE POLICY.pdf,1298411
+LLM/DIME    Diffusion-Based Maximum Entropy Reinforcement Learning.pdf,1975749
+LLM/DPO.pdf,1299212
+LLM/Decision Transformer.pdf,704784
+LLM/DeepSeek-R1 incentivizes reasoning in LLMs.pdf,2735576
+LLM/DeepSeek_R1.pdf,1328991
+LLM/Diffusion Policy   Visuomotor Policy Learning via Action Diffusion.pdf,6192199
+LLM/DreamerV3.pdf,23580846
+LLM/FROM ACCURACY TO ROBUSTNESS- A STUDY OF.pdf,668981
+LLM/Fine-Tuning Language Models from Human Preferences.pdf,967470
+LLM/GR00T N1.pdf,21021950
+LLM/GRPO.pdf,1844642
+LLM/Group Sequence Policy Optimization.pdf,458773
+LLM/KTO.pdf,1021062
+LLM/LLM+RL综述.pdf,3617042
+LLM/Lets_Verify_Step_by_Step.pdf,4425431
+LLM/MuZero.pdf,1862123
+LLM/Off-Policy Deep Reinforcement Learning without Exploration.pdf,2239587
+LLM/PETS.pdf,4020485
+LLM/Preference Transformer.pdf,17208655
+LLM/Q Transformer.pdf,6225530
+LLM/RLAIF vs. RLHF_Scaling Reinforcement Learning.pdf,2531894
+LLM/RLHF.pdf,3218596
+LLM/RLOO.pdf,989314
+LLM/ReAct.pdf,633805
+LLM/Reflexion_language_agent.pdf,509025
+LLM/Rejection sampling to RL.pdf,699223
+LLM/Scalable Agent Alignment via Reward Modeling.pdf,591813
+LLM/Self-Rewarding Language Models.pdf,1136245
+LLM/Training language models to follow instructions with human feedback.pdf,1797405
+LLM/Trajectory Transformer.pdf,6045541
+LLM/Tree of Thoughts.pdf,799685
+LLM/When to Trust Your Model- Model-Based Policy Optimization.pdf,3668344
+LLM/World Models.pdf,3147467
+LLM/attention-is-all-you-need-Paper.pdf,569417
+LLM/dapo.pdf,780892
+LLM/denoising-diffusion-probabilistic-models.pdf,33015795
+LLM/flow matching.pdf,25147129
+LLM/go-explore.pdf,7867121
+LLM/language-models-are-few-shot-learners-Paper.pdf,1283694
+LLM/mastering-atari-games-with-limited-data-Paper.pdf,999799
+LLM/mastering_atari_with_discrete_world_models.pdf,5154663
+LLM/pi0.pdf,3628399
+LLM/pi05.pdf,5079459
+LLM/pistar06.pdf,6043825
+LLM/training-language-models-to-follow-instructions-with-human-feedback.pdf,871274
+MARL/offline/AgentMixer.pdf,1845031
+MARL/offline/AlberDICE.pdf,1867220
+MARL/offline/BRUD-Coordination Failure.pdf,1666170
+MARL/offline/CFCQL.pdf,957809
+MARL/offline/CLS-DP.pdf,4331440
+MARL/offline/CODA.pdf,939533
+MARL/offline/CODI.pdf,4701481
+MARL/offline/COMAD.pdf,7299338
+MARL/offline/CPA.pdf,514218
+MARL/offline/CSP.pdf,4013333
+MARL/offline/CoDiMAD.pdf,1587937
+MARL/offline/CoFlow.pdf,2830558
+MARL/offline/ComaDICE.pdf,2499732
+MARL/offline/Copula-MAIL.pdf,3678241
+MARL/offline/DOM2.pdf,2927330
+MARL/offline/DoF.pdf,4854023
+MARL/offline/GCD.pdf,3420734
+MARL/offline/ICQ.pdf,1183562
+MARL/offline/INS.pdf,4580042
+MARL/offline/InSPO.pdf,670133
+MARL/offline/KD-MARL.pdf,3987198
+MARL/offline/MABCQ.pdf,1563849
+MARL/offline/MACCA.pdf,2190106
+MARL/offline/MADT.pdf,1039856
+MARL/offline/MADiTS.pdf,1839439
+MARL/offline/MADiff.pdf,3182816
+MARL/offline/MARL-Bipolar Recommendation.pdf,1048178
+MARL/offline/MF-Diffuser.pdf,1931339
+MARL/offline/MIMIC-D.pdf,3557845
+MARL/offline/MOHBA.pdf,8223885
+MARL/offline/MOMA-PPO.pdf,1197670
+MARL/offline/OMAC.pdf,3578651
+MARL/offline/OMAR.pdf,2095385
+MARL/offline/OMIGA.pdf,810364
+MARL/offline/OMSD.pdf,17498863
+MARL/offline/Oryx.pdf,1007284
+MARL/offline/PLCQL.pdf,942026
+MARL/offline/SPaCQL.pdf,812862
+MARL/offline/SVN.pdf,2566825
+MARL/offline/VO-MASD.pdf,7501056
+MARL/online/A2PO.pdf,4996478
+MARL/online/CADP.pdf,4432645
+MARL/online/COMA.pdf,718107
+MARL/online/ISAC-IL.pdf,1316525
+MARL/online/Independent Reinforcement Learners Survey.pdf,6356560
+MARL/online/InfoMARL.pdf,3506680
+MARL/online/MACPF.pdf,1623708
+MARL/online/MADDPG.pdf,1502182
+MARL/online/MATD3.pdf,1358917
+MARL/online/QTRAN.pdf,1675052
+MARL/online/SIC.pdf,3249234
+MARL/online/XuanCe.pdf,2762644
+MARL/online/mSAC.pdf,4609927
+NN/Consistency Models.pdf,31529980
+NN/Deep Residual Learning for Image Recognition.pdf,819383
+NN/ImageNet Classification with Deep Convolutional Neural Networks.pdf,2619104
+RL/offline/A Survey on Offline Reinforcement Learning.pdf,1478699
+RL/offline/BREMEN.pdf,4160266
+RL/offline/CQL.pdf,1632504
+RL/offline/Decision Diffusion.pdf,3194262
+RL/offline/Diffuser.pdf,10498721
+RL/offline/Diffusion Veteran (DV).pdf,9415299
+RL/offline/GTP.pdf,2021954
+RL/offline/Good Diffusion Planner Study.pdf,9415299
+RL/offline/IQL.pdf,476109
+RL/offline/LDCQ.pdf,2898120
+RL/offline/OPAL.pdf,2172109
+RL/offline/Prior Guidance (PG).pdf,2683453
+RL/offline/QDFM.pdf,631043
+RL/online/C51.pdf,1184718
+RL/online/DBC.pdf,1015320
+RL/online/DDPG.pdf,663643
+RL/online/DDQN.pdf,1193990
+RL/online/DRQN.pdf,2623265
+RL/online/DSAC-D.pdf,5106287
+RL/online/DrQ.pdf,1291799
+RL/online/Dueling DQN.pdf,754524
+RL/online/NPG.pdf,1517587
+RL/online/PPG.pdf,1273099
+RL/online/PPO.pdf,2923532
+RL/online/PSE.pdf,3142765
+RL/online/Parameter Space Noise.pdf,3960914
+RL/online/Parrot.pdf,5985750
+RL/online/Policy Gradient Methods.pdf,1541309
+RL/online/QMIX.pdf,3808951
+RL/online/QR-DQN.pdf,760503
+RL/online/SAC.pdf,2407011
+RL/online/SPR.pdf,2020724
+RL/online/TD3.pdf,2256703
+else/MASIA.pdf,7849709
+else/VQ-VAE.pdf,3174661
+offline-marl.pdf,1359899
+综述/An Introduction to Copulas.pdf,747541
+综述/Continual RL Survey.pdf,6937618
+综述/DM for RL Survey.pdf,1364915
+综述/Dec-POMDP Complexity.pdf,213922
+综述/Offline MARL Mirage Baselines.pdf,2712490
+综述/Putting Data at the Centre.pdf,1962198
+综述/RL- An Introduction (Sutton).pdf,4156279
+综述/Revisiting Cooperative MARL.pdf,7702476
+综述/X-MARL Survey.pdf,235211
