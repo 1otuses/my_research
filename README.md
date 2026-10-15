@@ -4,7 +4,7 @@
 
 当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-15。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
 
-GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。远端已创建，初始文档仍待上传：2026-10-15 写入请求返回连接器权限错误 403。后续阶段通过分支和 PR 记录。
+GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。初始研究文档已通过本机 Git 推送到 `main`。后续阶段通过分支和 PR 记录。
 
 当前依据是用户提供的 `offline-marl.pdf` 中的 Bi-ST-MADiff 设想。历史 copula、credit diffusion 等研究只作为既有项目背景，当前工作优先服从本轮设想。
 
