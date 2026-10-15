@@ -2,7 +2,9 @@
 
 记录基于扩散模型的离线多智能体强化学习研究：问题定义、文献证据、研究决策、实验协议与阶段成果。
 
-当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-14。所有算法收益均为待验证假设；本轮完成阅读和代码静态核查，尚未开展新算法实验。
+当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-15。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
+
+GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。初始研究文档发布在 `main`；后续阶段通过分支和 PR 记录。
 
 当前依据是用户提供的 `offline-marl.pdf` 中的 Bi-ST-MADiff 设想。历史 copula、credit diffusion 等研究只作为既有项目背景，当前工作优先服从本轮设想。
 
@@ -22,6 +24,7 @@
 | [实验协议](experiments/protocol.md) | 公平比较、种子、数据与延迟口径 |
 | [GitHub 流程](research/github_workflow.md) | 阶段提交、分支、PR 与上传状态 |
 | [研究日志](logs/2026-10-14.md) | 本轮完成项和未解决项 |
+| [上传记录](logs/2026-10-15.md) | GitHub 初始化与同步方式 |
 | [源文件索引](sources/manifest.json) | 原始 PDF 指纹和文献版本 |
 | [资料库目录](sources/library_inventory.csv) | 本轮可访问的 150 份本地 PDF 路径与大小 |
 

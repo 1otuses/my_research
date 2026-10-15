@@ -2,7 +2,7 @@
 
 目标仓库为公开的 `1otuses/my_research`，已由用户明确选择。该仓库追踪研究文档；算法代码继续在 `1otuses/madiff` 的研究分支推进，两者用固定 commit 和 PR 相互关联。
 
-当前上传状态见研究日志。本轮已有本地独立 Git 仓库准备流程，远端创建受当前连接器能力和本机身份认证限制，不能把本地提交写成已上传。
+远端仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。用户于 2026-10-15 创建公开空仓库，连接器已确认具有写入权限。初始化使用 GitHub 连接器提交文档；后续阶段通过分支和 PR 记录。
 
 每项工作完成后：更新对应研究文档和日志，记录一手来源或代码/数据指纹，检查文件和结论，提交到 `codex/<阶段>-<任务>`，push 并创建 PR。初始化研究仓库可先建立 `main` 的第一笔文档提交；后续工作通过分支和 PR 保留讨论记录。
 
@@ -10,16 +10,19 @@
 
 数据、checkpoint 和大型中间产物存于适合的外部存储，在仓库记录来源、路径约定和校验值。论文 PDF 通过来源索引关联，避免把整个本地资料库随初始化提交。
 
-## 当前远端限制
+## 上传与同步
 
-GitHub 连接器可读取现有 `1otuses/madiff` 且返回管理权限，但提供的工具中没有“创建仓库”接口。查询 `1otuses/my_research` 返回 404。本机未发现已登录的 GitHub CLI，非交互 Git 凭据检查未取得可用身份。
+本机 CLI 凭据与 GitHub 连接器认证相互独立。CLI 未登录时，可以通过连接器上传现有仓库中的文档；连接器未提供创建仓库接口，因此由用户创建初始空仓库。
 
-用户需在 GitHub 创建公开空仓库 `my_research` 后，现有连接器才有机会上传文件。请保持为空，初始化 README、license 和 gitignore 可交给本地已有内容；创建完成后重新核查连接器对新仓库的访问权限。
+使用连接器上传后，通过 `git fetch origin` 获取远端提交，核查文件树和内容一致，再同步本地 `main`。本地首次提交 `f36f7754c0efe6c91fc24ac4884bfd2cea4777a2` 的历史保留在 `codex/local-bootstrap` 分支，作为初始化来源。
 
-本机如另行配置了 GitHub CLI，创建并上传的命令为：
+若之后配置了本机 GitHub 登录，常规阶段更新可执行：
 
 ```bash
-gh repo create 1otuses/my_research --public --source=. --remote=origin --push
+git switch -c codex/<阶段>-<任务>
+git add <本阶段文件>
+git commit -m "docs: record research milestone"
+git push -u origin HEAD
 ```
 
-该命令本轮未执行。它需要在本研究仓库根目录、且 GitHub CLI 已登录到对应账户的环境中运行。
+随后创建 PR，记录问题、证据、修改和验证。通过连接器创建的 PR 也关联到当前 Codex 聊天。
