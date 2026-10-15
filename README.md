@@ -14,6 +14,7 @@ GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。
 
 | 入口 | 内容 |
 | --- | --- |
+| [方案修订稿](research/proposals/2026-10-15-latent-madiff-revision.md) | 无通信约束、MADiff 局限、潜空间最小方法及可证伪验证 |
 | [本轮简报](notes/initial_assessment.md) | 相似工作、可行性、草稿中需要修正的关键问题 |
 | [文献核查](notes/related_work_verified.md) | 一手来源、重合点、适用边界 |
 | [代码基础评估](notes/baseline_audit.md) | 固定版本、修改入口、baseline 选择 |
