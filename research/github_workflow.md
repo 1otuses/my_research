@@ -2,7 +2,7 @@
 
 目标仓库为公开的 `1otuses/my_research`，已由用户明确选择。该仓库追踪研究文档；算法代码继续在 `1otuses/madiff` 的研究分支推进，两者用固定 commit 和 PR 相互关联。
 
-远端仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。用户于 2026-10-15 创建公开空仓库，连接器已确认具有写入权限。初始化使用 GitHub 连接器提交文档；后续阶段通过分支和 PR 记录。
+远端仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。用户于 2026-10-15 创建公开空仓库。读取仓库信息成功，但写入请求返回 `403 Resource not accessible by integration`，初始文档尚未上传。
 
 每项工作完成后：更新对应研究文档和日志，记录一手来源或代码/数据指纹，检查文件和结论，提交到 `codex/<阶段>-<任务>`，push 并创建 PR。初始化研究仓库可先建立 `main` 的第一笔文档提交；后续工作通过分支和 PR 保留讨论记录。
 
@@ -14,7 +14,9 @@
 
 本机 CLI 凭据与 GitHub 连接器认证相互独立。CLI 未登录时，可以通过连接器上传现有仓库中的文档；连接器未提供创建仓库接口，因此由用户创建初始空仓库。
 
-使用连接器上传后，通过 `git fetch origin` 获取远端提交，核查文件树和内容一致，再同步本地 `main`。本地首次提交 `f36f7754c0efe6c91fc24ac4884bfd2cea4777a2` 的历史保留在 `codex/local-bootstrap` 分支，作为初始化来源。
+恢复连接器写入权限后，计划通过 `git fetch origin` 获取远端提交，核查文件树和内容一致，再同步本地 `main`。本地首次提交 `f36f7754c0efe6c91fc24ac4884bfd2cea4777a2` 仍保留在当前本地历史中。
+
+仓库元数据中的 `permissions.push: true` 表示账户权限，不能证明当前连接器具备实际写入权限。本轮实际创建 README 请求被 GitHub 拒绝；GitHub 应用安装与已安装账户查询均返回空列表。本机非交互 `git push` 也因缺少登录凭据失败。
 
 若之后配置了本机 GitHub 登录，常规阶段更新可执行：
 
