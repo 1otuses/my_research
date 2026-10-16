@@ -2,11 +2,13 @@
 
 记录基于扩散模型的离线多智能体强化学习研究：问题定义、文献证据、研究决策、实验协议与阶段成果。
 
-当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-15。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
+当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-16。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
 
 GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。初始研究文档已通过本机 Git 推送到 `main`。后续阶段通过分支和 PR 记录。
 
 当前依据是用户提供的 `offline-marl.pdf` 中的 Bi-ST-MADiff 设想。历史 copula、credit diffusion 等研究只作为既有项目背景，当前工作优先服从本轮设想。
+
+当前原稿已恢复 Bi-ST-MADiff 的标题、章节及四模块框架，仅调整通信相关设计。2026-10-15 的整篇 Latent-MADiff 改写作为历史建议保存；当前原稿以 `research/proposals/offline-marl.docx` 为准。
 
 执行约束已确认：完全合作场景、严格 CTDE、执行时各智能体只读取局部观察历史且无通信。用户已选择将本研究仓库公开。
 
@@ -14,7 +16,8 @@ GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。
 
 | 入口 | 内容 |
 | --- | --- |
-| [当前研究方案](research/proposals/2026-10-15-latent-madiff-revision.md) · [Word 原稿](research/proposals/offline-marl.docx) | 无通信约束、MADiff 局限、潜空间最小方法及可证伪验证 |
+| [Word 原稿](research/proposals/offline-marl.docx) · [本次修改范围](research/proposals/2026-10-16-communication-only-changes.md) | 保留原稿结构，仅修改通信相关框架与执行信息条件 |
+| [历史改写建议](research/proposals/2026-10-15-latent-madiff-revision.md) | 此前整篇改写的分析记录，已不作为当前原稿 |
 | [本轮简报](notes/initial_assessment.md) | 相似工作、可行性、草稿中需要修正的关键问题 |
 | [文献核查](notes/related_work_verified.md) | 一手来源、重合点、适用边界 |
 | [代码基础评估](notes/baseline_audit.md) | 固定版本、修改入口、baseline 选择 |
@@ -26,6 +29,7 @@ GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。
 | [GitHub 流程](research/github_workflow.md) | 阶段提交、分支、PR 与上传状态 |
 | [研究日志](logs/2026-10-14.md) | 本轮完成项和未解决项 |
 | [上传记录](logs/2026-10-15.md) | GitHub 初始化与同步方式 |
+| [原稿恢复记录](logs/2026-10-16.md) | 恢复原稿及通信局部修改的验证与同步 |
 | [源文件索引](sources/manifest.json) | 原始 PDF 指纹和文献版本 |
 | [资料库目录](sources/library_inventory.csv) | 本轮可访问的 150 份本地 PDF 路径与大小 |
 
