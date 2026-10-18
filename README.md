@@ -2,21 +2,21 @@
 
 记录基于扩散模型的离线多智能体强化学习研究：问题定义、文献证据、研究决策、实验协议与阶段成果。
 
-当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-16。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
+当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-18。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
 
 GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。初始研究文档已通过本机 Git 推送到 `main`。后续阶段通过分支和 PR 记录。
 
 当前依据是用户提供的 `offline-marl.pdf` 中的 Bi-ST-MADiff 设想。历史 copula、credit diffusion 等研究只作为既有项目背景，当前工作优先服从本轮设想。
 
-当前原稿已恢复 Bi-ST-MADiff 的标题、章节及四模块框架，仅调整通信相关设计。2026-10-15 的整篇 Latent-MADiff 改写作为历史建议保存；当前原稿以 `research/proposals/offline-marl.docx` 为准。
+当前原稿按用户确认的讨论更新为“时间抽象＋协同修正”的潜空间规划，移除动作分频及对应残差动作网络，保留原有章节组织与严格 CTDE 约束。当前以 `research/proposals/offline-marl.docx` 为准；2026-10-15、2026-10-16 记录保留为历史版本。
 
 执行约束已确认：完全合作场景、严格 CTDE、执行时各智能体只读取局部观察历史且无通信。用户已选择将本研究仓库公开。
 
-初步建议：以已有 MADiff fork 为第一阶段开发基础，先验证协同信息保真的潜空间压缩；CoFlow-D 与 DoF 作为后续重点比较对象。时序分频和稀疏图门控分别经过独立消融后，再决定是否组合。这个建议属于研究判断。
+当前实施顺序：以已有 MADiff fork 为基础，先验证观察片段编码解码和动作恢复，再训练潜空间时间生成分支，最后检验协同残差与软门控的增益。方案尚未实现，所有收益待验证。
 
 | 入口 | 内容 |
 | --- | --- |
-| [Word 原稿](research/proposals/offline-marl.docx) · [本次修改范围](research/proposals/2026-10-16-communication-only-changes.md) | 保留原稿结构，仅修改通信相关框架与执行信息条件 |
+| [Word 原稿](research/proposals/offline-marl.docx) · [本次修改范围](research/proposals/2026-10-18-temporal-coordination-changes.md) | 时间抽象、协同修正、潜空间生成及三阶段训练 |
 | [历史改写建议](research/proposals/2026-10-15-latent-madiff-revision.md) | 此前整篇改写的分析记录，已不作为当前原稿 |
 | [本轮简报](notes/initial_assessment.md) | 相似工作、可行性、草稿中需要修正的关键问题 |
 | [文献核查](notes/related_work_verified.md) | 一手来源、重合点、适用边界 |
@@ -30,6 +30,7 @@ GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。
 | [研究日志](logs/2026-10-14.md) | 本轮完成项和未解决项 |
 | [上传记录](logs/2026-10-15.md) | GitHub 初始化与同步方式 |
 | [原稿恢复记录](logs/2026-10-16.md) | 恢复原稿及通信局部修改的验证与同步 |
+| [设计更新记录](logs/2026-10-18.md) | 移除动作分频并写入用户确认的新框架 |
 | [源文件索引](sources/manifest.json) | 原始 PDF 指纹和文献版本 |
 | [资料库目录](sources/library_inventory.csv) | 本轮可访问的 150 份本地 PDF 路径与大小 |
 
