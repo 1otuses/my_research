@@ -1,0 +1,31 @@
+{
+  "nonmonotonic_xor": {
+    "values": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "dq_du1_at_u2": [
+      1,
+      -1
+    ]
+  },
+  "joint_kl_coordinate_identity": {
+    "joint": 0.2481071623441833,
+    "decomposed": 0.2481071623441834
+  },
+  "tree_normalization": 1.0,
+  "full_gradient_includes_child": {
+    "finite_difference": -0.824000000010372,
+    "full": -0.8240000000000001,
+    "own_factor_only": -0.2
+  },
+  "regularized_counterfactual_centering": [
+    5.551115123125783e-17,
+    0.0
+  ],
+  "pairwise_limit_parity": {
+    "tree_from_true_pair_marginals_tv": 0.5
+  }
+}

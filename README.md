@@ -2,7 +2,9 @@
 
 记录基于扩散模型的离线多智能体强化学习研究：问题定义、文献证据、研究决策、实验协议与阶段成果。
 
-当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-18。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
+当前阶段：S0 初步调研与方向收敛。更新时间：2026-10-20。所有算法收益均为待验证假设；已完成阅读、代码静态核查和研究文档初始化，尚未开展新算法实验。
+
+2026-10-20 新增 Actor–Critic 候选方向：[BRPO 非 IGM 价值分解与联合约束对齐](notes/2026-10-20-brpo-factorized-design.md)，包含 OMIGA/AlberDICE/CFCQL 机制核查、OMSD 固定版本代码审计、初步公式与实验方案。已完成六项数学检查；本条候选尚未替代下面的 MADiff Word 方案，算法实现框架推荐另行评估 OMSD。
 
 GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。初始研究文档已通过本机 Git 推送到 `main`。后续阶段通过分支和 PR 记录。
 
@@ -16,6 +18,8 @@ GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。
 
 | 入口 | 内容 |
 | --- | --- |
+| [BRPO 候选设计](notes/2026-10-20-brpo-factorized-design.md) · [原论文核查](notes/2026-10-20-brpo-source-findings.md) | 非 IGM Critic、结构化联合行为约束、完整梯度与统一目标 |
+| [本轮验证记录](logs/2026-10-20.md) | 数学检查、代码版本与尚未进行的算法实验 |
 | [Word 原稿](research/proposals/offline-marl.docx) · [本次修改范围](research/proposals/2026-10-18-temporal-coordination-changes.md) | 时间抽象、协同修正、潜空间生成及三阶段训练 |
 | [历史改写建议](research/proposals/2026-10-15-latent-madiff-revision.md) | 此前整篇改写的分析记录，已不作为当前原稿 |
 | [本轮简报](notes/initial_assessment.md) | 相似工作、可行性、草稿中需要修正的关键问题 |
