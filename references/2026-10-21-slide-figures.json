@@ -1,0 +1,146 @@
+[
+  {
+    "slide": 3,
+    "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+    "reference_number": 1,
+    "figure": "图1",
+    "pdf_page": 4,
+    "source_url": "https://arxiv.org/abs/1706.02275",
+    "library_path": "MARL/online/MADDPG.pdf"
+  },
+  {
+    "slide": 5,
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "reference_number": 28,
+    "figure": "图1",
+    "pdf_page": 2,
+    "source_url": "https://proceedings.mlr.press/v306/qiao26d.html",
+    "library_path": "MARL/offline/OMSD.pdf"
+  },
+  {
+    "slide": 8,
+    "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "reference_number": 7,
+    "figure": "图2",
+    "pdf_page": 5,
+    "source_url": "https://arxiv.org/abs/1803.11485",
+    "library_path": "RL/online/QMIX.pdf"
+  },
+  {
+    "slide": 9,
+    "title": "Coordination Failure in Cooperative Offline MARL",
+    "reference_number": 18,
+    "figure": "图1",
+    "pdf_page": 2,
+    "source_url": "https://arxiv.org/abs/2407.01343",
+    "library_path": "MARL/offline/BRUD-Coordination Failure.pdf"
+  },
+  {
+    "slide": 10,
+    "title": "Planning with Diffusion for Flexible Behavior Synthesis",
+    "reference_number": 22,
+    "figure": "图2",
+    "pdf_page": 2,
+    "source_url": "https://arxiv.org/abs/2205.09991",
+    "library_path": "RL/offline/Diffuser.pdf"
+  },
+  {
+    "slide": 10,
+    "title": "Is Conditional Generative Modeling all you need for Decision-Making?",
+    "reference_number": 23,
+    "figure": "图3",
+    "pdf_page": 4,
+    "source_url": "https://arxiv.org/abs/2211.15657",
+    "library_path": "RL/offline/Decision Diffusion.pdf"
+  },
+  {
+    "slide": 11,
+    "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
+    "reference_number": 24,
+    "figure": "图1",
+    "pdf_page": 3,
+    "source_url": "https://arxiv.org/abs/2305.17330",
+    "library_path": "MARL/offline/MADiff.pdf"
+  },
+  {
+    "slide": 12,
+    "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
+    "reference_number": 24,
+    "figure": "图4",
+    "pdf_page": 16,
+    "source_url": "https://arxiv.org/abs/2305.17330",
+    "library_path": "MARL/offline/MADiff.pdf"
+  },
+  {
+    "slide": 13,
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "reference_number": 28,
+    "figure": "图3",
+    "pdf_page": 5,
+    "source_url": "https://proceedings.mlr.press/v306/qiao26d.html",
+    "library_path": "MARL/offline/OMSD.pdf"
+  },
+  {
+    "slide": 14,
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "reference_number": 28,
+    "figure": "图2",
+    "pdf_page": 4,
+    "source_url": "https://proceedings.mlr.press/v306/qiao26d.html",
+    "library_path": "MARL/offline/OMSD.pdf"
+  },
+  {
+    "slide": 17,
+    "title": "Multi-Agent Imitation Learning with Copulas",
+    "reference_number": 31,
+    "figure": "图1",
+    "pdf_page": 2,
+    "source_url": "https://arxiv.org/abs/2107.04750",
+    "library_path": "MARL/offline/Copula-MAIL.pdf"
+  },
+  {
+    "slide": 20,
+    "title": "Distributional Reinforcement Learning with Quantile Regression",
+    "reference_number": 33,
+    "figure": "图2",
+    "pdf_page": 3,
+    "source_url": "https://arxiv.org/abs/1710.10044",
+    "library_path": "RL/online/QR-DQN.pdf"
+  },
+  {
+    "slide": 25,
+    "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
+    "reference_number": 24,
+    "figure": "图2",
+    "pdf_page": 8,
+    "source_url": "https://arxiv.org/abs/2305.17330",
+    "library_path": "MARL/offline/MADiff.pdf"
+  },
+  {
+    "slide": 26,
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "reference_number": 28,
+    "figure": "图5",
+    "pdf_page": 14,
+    "source_url": "https://proceedings.mlr.press/v306/qiao26d.html",
+    "library_path": "MARL/offline/OMSD.pdf"
+  },
+  {
+    "slide": 26,
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "reference_number": 28,
+    "figure": "图6",
+    "pdf_page": 14,
+    "source_url": "https://proceedings.mlr.press/v306/qiao26d.html",
+    "library_path": "MARL/offline/OMSD.pdf"
+  },
+  {
+    "slide": 26,
+    "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "reference_number": 7,
+    "figure": "图1",
+    "pdf_page": 1,
+    "source_url": "https://arxiv.org/abs/1803.11485",
+    "library_path": "RL/online/QMIX.pdf"
+  }
+]

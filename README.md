@@ -18,6 +18,7 @@ GitHub 仓库：[1otuses/my_research](https://github.com/1otuses/my_research)。
 
 | 入口 | 内容 |
 | --- | --- |
+| [开题报告正文初稿](notes/2026-10-20-opening-report.md) · [文献元数据](references/2026-10-20-opening-report.json) | 研究背景、方法与拟创新点，36篇顺序编码文献；Word在用户指定位置 |
 | [BRPO 候选设计](notes/2026-10-20-brpo-factorized-design.md) · [原论文核查](notes/2026-10-20-brpo-source-findings.md) | 非 IGM Critic、结构化联合行为约束、完整梯度与统一目标 |
 | [本轮验证记录](logs/2026-10-20.md) | 数学检查、代码版本与尚未进行的算法实验 |
 | [Word 原稿](research/proposals/offline-marl.docx) · [本次修改范围](research/proposals/2026-10-18-temporal-coordination-changes.md) | 时间抽象、协同修正、潜空间生成及三阶段训练 |

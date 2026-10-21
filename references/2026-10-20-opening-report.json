@@ -1,0 +1,695 @@
+[
+  {
+    "number": 1,
+    "key": "maddpg",
+    "entry": "[1] Ryan Lowe, Yi Wu, Aviv Tamar, et al. Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments[C]//Advances in Neural Information Processing Systems. 2017, 30.",
+    "arxiv": "1706.02275",
+    "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+    "authors": [
+      "Ryan Lowe",
+      "Yi Wu",
+      "Aviv Tamar",
+      "Jean Harb",
+      "Pieter Abbeel",
+      "Igor Mordatch"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/1706.02275",
+    "bibtex": "@misc{lowe2020multiagentactorcriticmixedcooperativecompetitive,\n      title={Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments}, \n      author={Ryan Lowe and Yi Wu and Aviv Tamar and Jean Harb and Pieter Abbeel and Igor Mordatch},\n      year={2020},\n      eprint={1706.02275},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1706.02275}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2017",
+    "volume": "30"
+  },
+  {
+    "number": 2,
+    "key": "mappo",
+    "entry": "[2] Chao Yu, Akash Velu, Eugene Vinitsky, et al. The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games[C]//Advances in Neural Information Processing Systems. 2022, 35.",
+    "arxiv": "2103.01955",
+    "title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+    "authors": [
+      "Chao Yu",
+      "Akash Velu",
+      "Eugene Vinitsky",
+      "Jiaxuan Gao",
+      "Yu Wang",
+      "Alexandre Bayen",
+      "Yi Wu"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2103.01955",
+    "bibtex": "@misc{yu2022surprisingeffectivenessppocooperative,\n      title={The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games}, \n      author={Chao Yu and Akash Velu and Eugene Vinitsky and Jiaxuan Gao and Yu Wang and Alexandre Bayen and Yi Wu},\n      year={2022},\n      eprint={2103.01955},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2103.01955}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2022",
+    "volume": "35"
+  },
+  {
+    "number": 3,
+    "key": "offline",
+    "entry": "[3] Sergey Levine, Aviral Kumar, George Tucker, et al. Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems[EB/OL]. arXiv:2005.01643, 2020[2026-10-20]. https://arxiv.org/abs/2005.01643.",
+    "arxiv": "2005.01643",
+    "title": "Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems",
+    "authors": [
+      "Sergey Levine",
+      "Aviral Kumar",
+      "George Tucker",
+      "Justin Fu"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2005.01643",
+    "bibtex": "@misc{levine2020offlinereinforcementlearningtutorial,\n      title={Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems}, \n      author={Sergey Levine and Aviral Kumar and George Tucker and Justin Fu},\n      year={2020},\n      eprint={2005.01643},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2005.01643}, \n}"
+  },
+  {
+    "number": 4,
+    "key": "bcq",
+    "entry": "[4] Scott Fujimoto, David Meger, Doina Precup. Off-Policy Deep Reinforcement Learning without Exploration[EB/OL]. arXiv:1812.02900, 2019[2026-10-20]. https://arxiv.org/abs/1812.02900.",
+    "arxiv": "1812.02900",
+    "title": "Off-Policy Deep Reinforcement Learning without Exploration",
+    "authors": [
+      "Scott Fujimoto",
+      "David Meger",
+      "Doina Precup"
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1812.02900",
+    "bibtex": "@misc{fujimoto2019offpolicydeepreinforcementlearning,\n      title={Off-Policy Deep Reinforcement Learning without Exploration}, \n      author={Scott Fujimoto and David Meger and Doina Precup},\n      year={2019},\n      eprint={1812.02900},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1812.02900}, \n}"
+  },
+  {
+    "number": 5,
+    "key": "coma",
+    "entry": "[5] Jakob Foerster, Gregory Farquhar, Triantafyllos Afouras, et al. Counterfactual Multi-Agent Policy Gradients[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2018.",
+    "arxiv": "1705.08926",
+    "title": "Counterfactual Multi-Agent Policy Gradients",
+    "authors": [
+      "Jakob Foerster",
+      "Gregory Farquhar",
+      "Triantafyllos Afouras",
+      "Nantas Nardelli",
+      "Shimon Whiteson"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/1705.08926",
+    "bibtex": "@misc{foerster2024counterfactualmultiagentpolicygradients,\n      title={Counterfactual Multi-Agent Policy Gradients}, \n      author={Jakob Foerster and Gregory Farquhar and Triantafyllos Afouras and Nantas Nardelli and Shimon Whiteson},\n      year={2024},\n      eprint={1705.08926},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/1705.08926}, \n}",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "publication_year": "2018",
+    "volume": "32"
+  },
+  {
+    "number": 6,
+    "key": "vdn",
+    "entry": "[6] Peter Sunehag, Guy Lever, Audrunas Gruslys, et al. Value-Decomposition Networks For Cooperative Multi-Agent Learning[EB/OL]. arXiv:1706.05296, 2017[2026-10-20]. https://arxiv.org/abs/1706.05296.",
+    "arxiv": "1706.05296",
+    "title": "Value-Decomposition Networks For Cooperative Multi-Agent Learning",
+    "authors": [
+      "Peter Sunehag",
+      "Guy Lever",
+      "Audrunas Gruslys",
+      "Wojciech Marian Czarnecki",
+      "Vinicius Zambaldi",
+      "Max Jaderberg",
+      "Marc Lanctot",
+      "Nicolas Sonnerat",
+      "Joel Z. Leibo",
+      "Karl Tuyls",
+      "Thore Graepel"
+    ],
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1706.05296",
+    "bibtex": "@misc{sunehag2017valuedecompositionnetworkscooperativemultiagent,\n      title={Value-Decomposition Networks For Cooperative Multi-Agent Learning}, \n      author={Peter Sunehag and Guy Lever and Audrunas Gruslys and Wojciech Marian Czarnecki and Vinicius Zambaldi and Max Jaderberg and Marc Lanctot and Nicolas Sonnerat and Joel Z. Leibo and Karl Tuyls and Thore Graepel},\n      year={2017},\n      eprint={1706.05296},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/1706.05296}, \n}"
+  },
+  {
+    "number": 7,
+    "key": "qmix",
+    "entry": "[7] Tabish Rashid, Mikayel Samvelyan, Christian Schroeder de Witt, et al. QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning[C]//Proceedings of the 35th International Conference on Machine Learning. 2018.",
+    "arxiv": "1803.11485",
+    "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Tabish Rashid",
+      "Mikayel Samvelyan",
+      "Christian Schroeder de Witt",
+      "Gregory Farquhar",
+      "Jakob Foerster",
+      "Shimon Whiteson"
+    ],
+    "year": "2018",
+    "url": "https://arxiv.org/abs/1803.11485",
+    "bibtex": "@misc{rashid2018qmixmonotonicvaluefunction,\n      title={QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning}, \n      author={Tabish Rashid and Mikayel Samvelyan and Christian Schroeder de Witt and Gregory Farquhar and Jakob Foerster and Shimon Whiteson},\n      year={2018},\n      eprint={1803.11485},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1803.11485}, \n}",
+    "venue": "Proceedings of the 35th International Conference on Machine Learning",
+    "publication_year": "2018",
+    "volume": ""
+  },
+  {
+    "number": 8,
+    "key": "facmac",
+    "entry": "[8] Bei Peng, Tabish Rashid, Christian A. Schroeder de Witt, et al. FACMAC: Factored Multi-Agent Centralised Policy Gradients[C]//Advances in Neural Information Processing Systems. 2021, 34.",
+    "arxiv": "2003.06709",
+    "title": "FACMAC: Factored Multi-Agent Centralised Policy Gradients",
+    "authors": [
+      "Bei Peng",
+      "Tabish Rashid",
+      "Christian A. Schroeder de Witt",
+      "Pierre-Alexandre Kamienny",
+      "Philip H. S. Torr",
+      "Wendelin Böhmer",
+      "Shimon Whiteson"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2003.06709",
+    "bibtex": "@misc{peng2021facmacfactoredmultiagentcentralised,\n      title={FACMAC: Factored Multi-Agent Centralised Policy Gradients}, \n      author={Bei Peng and Tabish Rashid and Christian A. Schroeder de Witt and Pierre-Alexandre Kamienny and Philip H. S. Torr and Wendelin Böhmer and Shimon Whiteson},\n      year={2021},\n      eprint={2003.06709},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2003.06709}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2021",
+    "volume": "34"
+  },
+  {
+    "number": 9,
+    "key": "brac",
+    "entry": "[9] Yifan Wu, George Tucker, Ofir Nachum. Behavior Regularized Offline Reinforcement Learning[EB/OL]. arXiv:1911.11361, 2019[2026-10-20]. https://arxiv.org/abs/1911.11361.",
+    "title": "Behavior Regularized Offline Reinforcement Learning",
+    "authors": [
+      "Yifan Wu",
+      "George Tucker",
+      "Ofir Nachum"
+    ],
+    "year": "2019",
+    "arxiv": "1911.11361",
+    "url": "https://arxiv.org/abs/1911.11361",
+    "bibtex": "@misc{wu2019behaviorregularizedofflinereinforcement,\n      title={Behavior Regularized Offline Reinforcement Learning}, \n      author={Yifan Wu and George Tucker and Ofir Nachum},\n      year={2019},\n      eprint={1911.11361},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1911.11361}, \n}"
+  },
+  {
+    "number": 10,
+    "key": "cql",
+    "entry": "[10] Aviral Kumar, Aurick Zhou, George Tucker, et al. Conservative Q-Learning for Offline Reinforcement Learning[C]//Advances in Neural Information Processing Systems. 2020, 33.",
+    "arxiv": "2006.04779",
+    "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+    "authors": [
+      "Aviral Kumar",
+      "Aurick Zhou",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2006.04779",
+    "bibtex": "@misc{kumar2020conservativeqlearningofflinereinforcement,\n      title={Conservative Q-Learning for Offline Reinforcement Learning}, \n      author={Aviral Kumar and Aurick Zhou and George Tucker and Sergey Levine},\n      year={2020},\n      eprint={2006.04779},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2006.04779}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2020",
+    "volume": "33"
+  },
+  {
+    "number": 11,
+    "key": "iql",
+    "entry": "[11] Ilya Kostrikov, Ashvin Nair, Sergey Levine. Offline Reinforcement Learning with Implicit Q-Learning[C]//International Conference on Learning Representations. 2022.",
+    "arxiv": "2110.06169",
+    "title": "Offline Reinforcement Learning with Implicit Q-Learning",
+    "authors": [
+      "Ilya Kostrikov",
+      "Ashvin Nair",
+      "Sergey Levine"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2110.06169",
+    "bibtex": "@misc{kostrikov2021offlinereinforcementlearningimplicit,\n      title={Offline Reinforcement Learning with Implicit Q-Learning}, \n      author={Ilya Kostrikov and Ashvin Nair and Sergey Levine},\n      year={2021},\n      eprint={2110.06169},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2110.06169}, \n}",
+    "venue": "International Conference on Learning Representations",
+    "publication_year": "2022",
+    "volume": ""
+  },
+  {
+    "number": 12,
+    "key": "icq",
+    "entry": "[12] Yiqin Yang, Xiaoteng Ma, Chenghao Li, et al. Believe What You See: Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning[C]//Advances in Neural Information Processing Systems. 2021, 34.",
+    "arxiv": "2106.03400",
+    "title": "Believe What You See: Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Yiqin Yang",
+      "Xiaoteng Ma",
+      "Chenghao Li",
+      "Zewu Zheng",
+      "Qiyuan Zhang",
+      "Gao Huang",
+      "Jun Yang",
+      "Qianchuan Zhao"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2106.03400",
+    "bibtex": "@misc{yang2021believeseeimplicitconstraint,\n      title={Believe What You See: Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning}, \n      author={Yiqin Yang and Xiaoteng Ma and Chenghao Li and Zewu Zheng and Qiyuan Zhang and Gao Huang and Jun Yang and Qianchuan Zhao},\n      year={2021},\n      eprint={2106.03400},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2106.03400}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2021",
+    "volume": "34"
+  },
+  {
+    "number": 13,
+    "key": "omar",
+    "entry": "[13] Ling Pan, Longbo Huang, Tengyu Ma, et al. Plan Better Amid Conservatism: Offline Multi-Agent Reinforcement Learning with Actor Rectification[EB/OL]. arXiv:2111.11188, 2022[2026-10-20]. https://arxiv.org/abs/2111.11188.",
+    "arxiv": "2111.11188",
+    "title": "Plan Better Amid Conservatism: Offline Multi-Agent Reinforcement Learning with Actor Rectification",
+    "authors": [
+      "Ling Pan",
+      "Longbo Huang",
+      "Tengyu Ma",
+      "Huazhe Xu"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2111.11188",
+    "bibtex": "@misc{pan2022planbetteramidconservatism,\n      title={Plan Better Amid Conservatism: Offline Multi-Agent Reinforcement Learning with Actor Rectification}, \n      author={Ling Pan and Longbo Huang and Tengyu Ma and Huazhe Xu},\n      year={2022},\n      eprint={2111.11188},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2111.11188}, \n}"
+  },
+  {
+    "number": 14,
+    "key": "cfcql",
+    "entry": "[14] Jianzhun Shao, Yun Qu, Chen Chen, et al. Counterfactual Conservative Q Learning for Offline Multi-agent Reinforcement Learning[C]//Advances in Neural Information Processing Systems. 2023, 36.",
+    "arxiv": "2309.12696",
+    "title": "Counterfactual Conservative Q Learning for Offline Multi-agent Reinforcement Learning",
+    "authors": [
+      "Jianzhun Shao",
+      "Yun Qu",
+      "Chen Chen",
+      "Hongchang Zhang",
+      "Xiangyang Ji"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2309.12696",
+    "bibtex": "@misc{shao2023counterfactualconservativeqlearning,\n      title={Counterfactual Conservative Q Learning for Offline Multi-agent Reinforcement Learning}, \n      author={Jianzhun Shao and Yun Qu and Chen Chen and Hongchang Zhang and Xiangyang Ji},\n      year={2023},\n      eprint={2309.12696},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2309.12696}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2023",
+    "volume": "36"
+  },
+  {
+    "number": 15,
+    "key": "omiga",
+    "entry": "[15] Xiangsen Wang, Haoran Xu, Yinan Zheng, et al. Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization[C]//Advances in Neural Information Processing Systems. 2023, 36.",
+    "arxiv": "2307.11620",
+    "title": "Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization",
+    "authors": [
+      "Xiangsen Wang",
+      "Haoran Xu",
+      "Yinan Zheng",
+      "Xianyuan Zhan"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2307.11620",
+    "bibtex": "@misc{wang2023offlinemultiagentreinforcementlearning,\n      title={Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization}, \n      author={Xiangsen Wang and Haoran Xu and Yinan Zheng and Xianyuan Zhan},\n      year={2023},\n      eprint={2307.11620},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2307.11620}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2023",
+    "volume": "36"
+  },
+  {
+    "number": 16,
+    "key": "alberdice",
+    "entry": "[16] Daiki E. Matsunaga, Jongmin Lee, Jaeseok Yoon, et al. AlberDICE: Addressing Out-Of-Distribution Joint Actions in Offline Multi-Agent RL via Alternating Stationary Distribution Correction Estimation[C]//Advances in Neural Information Processing Systems. 2023, 36.",
+    "arxiv": "2311.02194",
+    "title": "AlberDICE: Addressing Out-Of-Distribution Joint Actions in Offline Multi-Agent RL via Alternating Stationary Distribution Correction Estimation",
+    "authors": [
+      "Daiki E. Matsunaga",
+      "Jongmin Lee",
+      "Jaeseok Yoon",
+      "Stefanos Leonardos",
+      "Pieter Abbeel",
+      "Kee-Eung Kim"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2311.02194",
+    "bibtex": "@misc{matsunaga2023alberdiceaddressingoutofdistributionjoint,\n      title={AlberDICE: Addressing Out-Of-Distribution Joint Actions in Offline Multi-Agent RL via Alternating Stationary Distribution Correction Estimation}, \n      author={Daiki E. Matsunaga and Jongmin Lee and Jaeseok Yoon and Stefanos Leonardos and Pieter Abbeel and Kee-Eung Kim},\n      year={2023},\n      eprint={2311.02194},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2311.02194}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2023",
+    "volume": "36"
+  },
+  {
+    "number": 17,
+    "key": "comadice",
+    "entry": "[17] The Viet Bui, Thanh Hong Nguyen, Tien Mai. ComaDICE: Offline Cooperative Multi-Agent Reinforcement Learning with Stationary Distribution Shift Regularization[C]//International Conference on Learning Representations. 2025.",
+    "arxiv": "2410.01954",
+    "title": "ComaDICE: Offline Cooperative Multi-Agent Reinforcement Learning with Stationary Distribution Shift Regularization",
+    "authors": [
+      "The Viet Bui",
+      "Thanh Hong Nguyen",
+      "Tien Mai"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2410.01954",
+    "bibtex": "@misc{bui2024comadiceofflinecooperativemultiagent,\n      title={ComaDICE: Offline Cooperative Multi-Agent Reinforcement Learning with Stationary Distribution Shift Regularization}, \n      author={The Viet Bui and Thanh Hong Nguyen and Tien Mai},\n      year={2024},\n      eprint={2410.01954},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2410.01954}, \n}",
+    "venue": "International Conference on Learning Representations",
+    "publication_year": "2025",
+    "volume": ""
+  },
+  {
+    "number": 18,
+    "key": "brud",
+    "entry": "[18] Callum Rhys Tilbury, Claude Formanek, Louise Beyers, et al. Coordination Failure in Cooperative Offline MARL[EB/OL]. arXiv:2407.01343, 2024[2026-10-20]. https://arxiv.org/abs/2407.01343.",
+    "arxiv": "2407.01343",
+    "title": "Coordination Failure in Cooperative Offline MARL",
+    "authors": [
+      "Callum Rhys Tilbury",
+      "Claude Formanek",
+      "Louise Beyers",
+      "Jonathan P. Shock",
+      "Arnu Pretorius"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2407.01343",
+    "bibtex": "@misc{tilbury2024coordinationfailurecooperativeoffline,\n      title={Coordination Failure in Cooperative Offline MARL}, \n      author={Callum Rhys Tilbury and Claude Formanek and Louise Beyers and Jonathan P. Shock and Arnu Pretorius},\n      year={2024},\n      eprint={2407.01343},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2407.01343}, \n}"
+  },
+  {
+    "number": 19,
+    "key": "ddpm",
+    "entry": "[19] Jonathan Ho, Ajay Jain, Pieter Abbeel. Denoising Diffusion Probabilistic Models[C]//Advances in Neural Information Processing Systems. 2020, 33.",
+    "arxiv": "2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "authors": [
+      "Jonathan Ho",
+      "Ajay Jain",
+      "Pieter Abbeel"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "bibtex": "@misc{ho2020denoisingdiffusionprobabilisticmodels,\n      title={Denoising Diffusion Probabilistic Models}, \n      author={Jonathan Ho and Ajay Jain and Pieter Abbeel},\n      year={2020},\n      eprint={2006.11239},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2006.11239}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2020",
+    "volume": "33"
+  },
+  {
+    "number": 20,
+    "key": "sde",
+    "entry": "[20] Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, et al. Score-Based Generative Modeling through Stochastic Differential Equations[C]//International Conference on Learning Representations. 2021.",
+    "arxiv": "2011.13456",
+    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "authors": [
+      "Yang Song",
+      "Jascha Sohl-Dickstein",
+      "Diederik P. Kingma",
+      "Abhishek Kumar",
+      "Stefano Ermon",
+      "Ben Poole"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2011.13456",
+    "bibtex": "@misc{song2021scorebasedgenerativemodelingstochastic,\n      title={Score-Based Generative Modeling through Stochastic Differential Equations}, \n      author={Yang Song and Jascha Sohl-Dickstein and Diederik P. Kingma and Abhishek Kumar and Stefano Ermon and Ben Poole},\n      year={2021},\n      eprint={2011.13456},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2011.13456}, \n}",
+    "venue": "International Conference on Learning Representations",
+    "publication_year": "2021",
+    "volume": ""
+  },
+  {
+    "number": 21,
+    "key": "cfg",
+    "entry": "[21] Jonathan Ho, Tim Salimans. Classifier-Free Diffusion Guidance[EB/OL]. arXiv:2207.12598, 2022[2026-10-20]. https://arxiv.org/abs/2207.12598.",
+    "arxiv": "2207.12598",
+    "title": "Classifier-Free Diffusion Guidance",
+    "authors": [
+      "Jonathan Ho",
+      "Tim Salimans"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2207.12598",
+    "bibtex": "@misc{ho2022classifierfreediffusionguidance,\n      title={Classifier-Free Diffusion Guidance}, \n      author={Jonathan Ho and Tim Salimans},\n      year={2022},\n      eprint={2207.12598},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2207.12598}, \n}"
+  },
+  {
+    "number": 22,
+    "key": "diffuser",
+    "entry": "[22] Michael Janner, Yilun Du, Joshua B. Tenenbaum, et al. Planning with Diffusion for Flexible Behavior Synthesis[EB/OL]. arXiv:2205.09991, 2022[2026-10-20]. https://arxiv.org/abs/2205.09991.",
+    "arxiv": "2205.09991",
+    "title": "Planning with Diffusion for Flexible Behavior Synthesis",
+    "authors": [
+      "Michael Janner",
+      "Yilun Du",
+      "Joshua B. Tenenbaum",
+      "Sergey Levine"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2205.09991",
+    "bibtex": "@misc{janner2022planningdiffusionflexiblebehavior,\n      title={Planning with Diffusion for Flexible Behavior Synthesis}, \n      author={Michael Janner and Yilun Du and Joshua B. Tenenbaum and Sergey Levine},\n      year={2022},\n      eprint={2205.09991},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2205.09991}, \n}"
+  },
+  {
+    "number": 23,
+    "key": "decisiondiff",
+    "entry": "[23] Anurag Ajay, Yilun Du, Abhi Gupta, et al. Is Conditional Generative Modeling all you need for Decision-Making?[C]//International Conference on Learning Representations. 2023.",
+    "arxiv": "2211.15657",
+    "title": "Is Conditional Generative Modeling all you need for Decision-Making?",
+    "authors": [
+      "Anurag Ajay",
+      "Yilun Du",
+      "Abhi Gupta",
+      "Joshua Tenenbaum",
+      "Tommi Jaakkola",
+      "Pulkit Agrawal"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2211.15657",
+    "bibtex": "@misc{ajay2023conditionalgenerativemodelingneed,\n      title={Is Conditional Generative Modeling all you need for Decision-Making?}, \n      author={Anurag Ajay and Yilun Du and Abhi Gupta and Joshua Tenenbaum and Tommi Jaakkola and Pulkit Agrawal},\n      year={2023},\n      eprint={2211.15657},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2211.15657}, \n}",
+    "venue": "International Conference on Learning Representations",
+    "publication_year": "2023",
+    "volume": ""
+  },
+  {
+    "number": 24,
+    "key": "madiff",
+    "entry": "[24] Zhengbang Zhu, Minghuan Liu, Liyuan Mao, et al. MADiff: Offline Multi-agent Learning with Diffusion Models[C]//Advances in Neural Information Processing Systems. 2024, 37.",
+    "arxiv": "2305.17330",
+    "title": "MADiff: Offline Multi-agent Learning with Diffusion Models",
+    "authors": [
+      "Zhengbang Zhu",
+      "Minghuan Liu",
+      "Liyuan Mao",
+      "Bingyi Kang",
+      "Minkai Xu",
+      "Yong Yu",
+      "Stefano Ermon",
+      "Weinan Zhang"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2305.17330",
+    "bibtex": "@misc{zhu2025madiffofflinemultiagentlearning,\n      title={MADiff: Offline Multi-agent Learning with Diffusion Models}, \n      author={Zhengbang Zhu and Minghuan Liu and Liyuan Mao and Bingyi Kang and Minkai Xu and Yong Yu and Stefano Ermon and Weinan Zhang},\n      year={2025},\n      eprint={2305.17330},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2305.17330}, \n}",
+    "venue": "Advances in Neural Information Processing Systems",
+    "publication_year": "2024",
+    "volume": "37"
+  },
+  {
+    "number": 25,
+    "key": "diffusionql",
+    "entry": "[25] Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou. Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning[C]//International Conference on Learning Representations. 2023.",
+    "arxiv": "2208.06193",
+    "title": "Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning",
+    "authors": [
+      "Zhendong Wang",
+      "Jonathan J Hunt",
+      "Mingyuan Zhou"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2208.06193",
+    "bibtex": "@misc{wang2023diffusionpoliciesexpressivepolicy,\n      title={Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning}, \n      author={Zhendong Wang and Jonathan J Hunt and Mingyuan Zhou},\n      year={2023},\n      eprint={2208.06193},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2208.06193}, \n}",
+    "venue": "International Conference on Learning Representations",
+    "publication_year": "2023",
+    "volume": ""
+  },
+  {
+    "number": 26,
+    "key": "srpo",
+    "entry": "[26] Huayu Chen, Cheng Lu, Zhengyi Wang, et al. Score Regularized Policy Optimization through Diffusion Behavior[C]//International Conference on Learning Representations. 2024.",
+    "arxiv": "2310.07297",
+    "title": "Score Regularized Policy Optimization through Diffusion Behavior",
+    "authors": [
+      "Huayu Chen",
+      "Cheng Lu",
+      "Zhengyi Wang",
+      "Hang Su",
+      "Jun Zhu"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2310.07297",
+    "bibtex": "@misc{chen2024scoreregularizedpolicyoptimization,\n      title={Score Regularized Policy Optimization through Diffusion Behavior}, \n      author={Huayu Chen and Cheng Lu and Zhengyi Wang and Hang Su and Jun Zhu},\n      year={2024},\n      eprint={2310.07297},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2310.07297}, \n}",
+    "venue": "International Conference on Learning Representations",
+    "publication_year": "2024",
+    "volume": ""
+  },
+  {
+    "number": 27,
+    "key": "coda",
+    "entry": "[27] Marcel Hedman, Kale-ab Abebe Tessera, Juan Claude Formanek, et al. CODA: Coordination via On-Policy Diffusion for Multi-Agent Offline Reinforcement Learning[EB/OL]. arXiv:2604.23308, 2026[2026-10-20]. https://arxiv.org/abs/2604.23308.",
+    "arxiv": "2604.23308",
+    "title": "CODA: Coordination via On-Policy Diffusion for Multi-Agent Offline Reinforcement Learning",
+    "authors": [
+      "Marcel Hedman",
+      "Kale-ab Abebe Tessera",
+      "Juan Claude Formanek",
+      "Anya Sims",
+      "Riccardo Zamboni",
+      "Trevor McInroe",
+      "John Torr",
+      "Elliot Fosong"
+    ],
+    "year": "2026",
+    "url": "https://arxiv.org/abs/2604.23308",
+    "bibtex": "@misc{hedman2026codacoordinationonpolicydiffusion,\n      title={CODA: Coordination via On-Policy Diffusion for Multi-Agent Offline Reinforcement Learning}, \n      author={Marcel Hedman and Kale-ab Abebe Tessera and Juan Claude Formanek and Anya Sims and Riccardo Zamboni and Trevor McInroe and John Torr and Elliot Fosong},\n      year={2026},\n      eprint={2604.23308},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2604.23308}, \n}"
+  },
+  {
+    "number": 28,
+    "key": "omsd",
+    "entry": "[28] Dan Qiao, Wenhao Li, Shanchao Yang, et al. Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition[C]//Proceedings of the 43rd International Conference on Machine Learning. 2026: 101269–101297.",
+    "arxiv": "2505.05968",
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "authors": [
+      "Dan Qiao",
+      "Wenhao Li",
+      "Shanchao Yang",
+      "Hongyuan Zha",
+      "Baoxiang Wang"
+    ],
+    "year": "2026",
+    "url": "https://proceedings.mlr.press/v306/qiao26d.html",
+    "bibtex": "@misc{qiao2026offlinemultiagentreinforcementlearning,\n      title={Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition}, \n      author={Dan Qiao and Wenhao Li and Shanchao Yang and Hongyuan Zha and Baoxiang Wang},\n      year={2026},\n      eprint={2505.05968},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2505.05968}, \n}",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_year": "2026",
+    "pages": "101269–101297"
+  },
+  {
+    "number": 29,
+    "key": "chowliu",
+    "entry": "[29] C. Chow, C. Liu. Approximating discrete probability distributions with dependence trees[J]. IEEE Transactions on Information Theory, 1968, 14(3): 462–467. DOI: 10.1109/TIT.1968.1054142.",
+    "title": "Approximating discrete probability distributions with dependence trees",
+    "authors": [
+      "C. Chow",
+      "C. Liu"
+    ],
+    "year": "1968",
+    "url": "https://doi.org/10.1109/TIT.1968.1054142",
+    "journal": "IEEE Transactions on Information Theory",
+    "volume": "14",
+    "issue": "3",
+    "pages": "462-467",
+    "verified_from": "https://api.crossref.org/works/10.1109/TIT.1968.1054142"
+  },
+  {
+    "number": 30,
+    "key": "conditional_tree",
+    "entry": "[30] Sergey Kirshner, Padhraic Smyth, Andrew Robertson. Conditional Chow-Liu Tree Structures for Modeling Discrete-Valued Vector Time Series[C]//Proceedings of the 20th Conference on Uncertainty in Artificial Intelligence. 2004.",
+    "arxiv": "1207.4142",
+    "title": "Conditional Chow-Liu Tree Structures for Modeling Discrete-Valued Vector Time Series",
+    "authors": [
+      "Sergey Kirshner",
+      "Padhraic Smyth",
+      "Andrew Robertson"
+    ],
+    "year": "2012",
+    "url": "https://arxiv.org/abs/1207.4142",
+    "bibtex": "@misc{kirshner2012conditionalchowliutreestructures,\n      title={Conditional Chow-Liu Tree Structures for Modeling Discrete-Valued Vector Time Series}, \n      author={Sergey Kirshner and Padhraic Smyth and Andrew Robertson},\n      year={2012},\n      eprint={1207.4142},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1207.4142}, \n}",
+    "venue": "Proceedings of the 20th Conference on Uncertainty in Artificial Intelligence",
+    "publication_year": "2004",
+    "volume": ""
+  },
+  {
+    "number": 31,
+    "key": "copulamail",
+    "entry": "[31] Hongwei Wang, Lantao Yu, Zhangjie Cao, et al. Multi-Agent Imitation Learning with Copulas[EB/OL]. arXiv:2107.04750, 2021[2026-10-20]. https://arxiv.org/abs/2107.04750.",
+    "arxiv": "2107.04750",
+    "title": "Multi-Agent Imitation Learning with Copulas",
+    "authors": [
+      "Hongwei Wang",
+      "Lantao Yu",
+      "Zhangjie Cao",
+      "Stefano Ermon"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2107.04750",
+    "bibtex": "@misc{wang2021multiagentimitationlearningcopulas,\n      title={Multi-Agent Imitation Learning with Copulas}, \n      author={Hongwei Wang and Lantao Yu and Zhangjie Cao and Stefano Ermon},\n      year={2021},\n      eprint={2107.04750},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2107.04750}, \n}"
+  },
+  {
+    "number": 32,
+    "key": "dcg",
+    "entry": "[32] Wendelin Böhmer, Vitaly Kurin, Shimon Whiteson. Deep Coordination Graphs[C]//Proceedings of the 37th International Conference on Machine Learning. 2020.",
+    "arxiv": "1910.00091",
+    "title": "Deep Coordination Graphs",
+    "authors": [
+      "Wendelin Böhmer",
+      "Vitaly Kurin",
+      "Shimon Whiteson"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/1910.00091",
+    "bibtex": "@misc{böhmer2020deepcoordinationgraphs,\n      title={Deep Coordination Graphs}, \n      author={Wendelin Böhmer and Vitaly Kurin and Shimon Whiteson},\n      year={2020},\n      eprint={1910.00091},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1910.00091}, \n}",
+    "venue": "Proceedings of the 37th International Conference on Machine Learning",
+    "publication_year": "2020",
+    "volume": ""
+  },
+  {
+    "number": 33,
+    "key": "qrdqn",
+    "entry": "[33] Will Dabney, Mark Rowland, Marc G. Bellemare, et al. Distributional Reinforcement Learning with Quantile Regression[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2018.",
+    "arxiv": "1710.10044",
+    "title": "Distributional Reinforcement Learning with Quantile Regression",
+    "authors": [
+      "Will Dabney",
+      "Mark Rowland",
+      "Marc G. Bellemare",
+      "Rémi Munos"
+    ],
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1710.10044",
+    "bibtex": "@misc{dabney2017distributionalreinforcementlearningquantile,\n      title={Distributional Reinforcement Learning with Quantile Regression}, \n      author={Will Dabney and Mark Rowland and Marc G. Bellemare and Rémi Munos},\n      year={2017},\n      eprint={1710.10044},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/1710.10044}, \n}",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "publication_year": "2018",
+    "volume": "32"
+  },
+  {
+    "number": 34,
+    "key": "dfac",
+    "entry": "[34] Wei-Fang Sun, Cheng-Kuang Lee, Simon See, et al. A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning[J]. Journal of Machine Learning Research, 2023, 24(220): 1–32.",
+    "arxiv": "2306.02430",
+    "title": "A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Wei-Fang Sun",
+      "Cheng-Kuang Lee",
+      "Simon See",
+      "Chun-Yi Lee"
+    ],
+    "year": "2023",
+    "url": "https://www.jmlr.org/papers/v24/22-0630.html",
+    "bibtex": "@misc{sun2023unifiedframeworkfactorizingdistributional,\n      title={A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning}, \n      author={Wei-Fang Sun and Cheng-Kuang Lee and Simon See and Chun-Yi Lee},\n      year={2023},\n      eprint={2306.02430},\n      archivePrefix={arXiv},\n      primaryClass={cs.MA},\n      url={https://arxiv.org/abs/2306.02430}, \n}",
+    "venue": "Journal of Machine Learning Research",
+    "publication_year": "2023",
+    "volume": "24",
+    "issue": "220",
+    "pages": "1–32"
+  },
+  {
+    "number": 35,
+    "key": "pettingzoo",
+    "entry": "[35] J. K. Terry, Benjamin Black, Nathaniel Grammel, et al. PettingZoo: Gym for Multi-Agent Reinforcement Learning[EB/OL]. arXiv:2009.14471, 2021[2026-10-20]. https://arxiv.org/abs/2009.14471.",
+    "arxiv": "2009.14471",
+    "title": "PettingZoo: Gym for Multi-Agent Reinforcement Learning",
+    "authors": [
+      "J. K. Terry",
+      "Benjamin Black",
+      "Nathaniel Grammel",
+      "Mario Jayakumar",
+      "Ananth Hari",
+      "Ryan Sullivan",
+      "Luis Santos",
+      "Rodrigo Perez",
+      "Caroline Horsch",
+      "Clemens Dieffendahl",
+      "Niall L. Williams",
+      "Yashas Lokesh",
+      "Praveen Ravi"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2009.14471",
+    "bibtex": "@misc{terry2021pettingzoogymmultiagentreinforcement,\n      title={PettingZoo: Gym for Multi-Agent Reinforcement Learning}, \n      author={J. K. Terry and Benjamin Black and Nathaniel Grammel and Mario Jayakumar and Ananth Hari and Ryan Sullivan and Luis Santos and Rodrigo Perez and Caroline Horsch and Clemens Dieffendahl and Niall L. Williams and Yashas Lokesh and Praveen Ravi},\n      year={2021},\n      eprint={2009.14471},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2009.14471}, \n}"
+  },
+  {
+    "number": 36,
+    "key": "smac",
+    "entry": "[36] Mikayel Samvelyan, Tabish Rashid, Christian Schroeder de Witt, et al. The StarCraft Multi-Agent Challenge[EB/OL]. arXiv:1902.04043, 2019[2026-10-20]. https://arxiv.org/abs/1902.04043.",
+    "arxiv": "1902.04043",
+    "title": "The StarCraft Multi-Agent Challenge",
+    "authors": [
+      "Mikayel Samvelyan",
+      "Tabish Rashid",
+      "Christian Schroeder de Witt",
+      "Gregory Farquhar",
+      "Nantas Nardelli",
+      "Tim G. J. Rudner",
+      "Chia-Man Hung",
+      "Philip H. S. Torr",
+      "Jakob Foerster",
+      "Shimon Whiteson"
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1902.04043",
+    "bibtex": "@misc{samvelyan2019starcraftmultiagentchallenge,\n      title={The StarCraft Multi-Agent Challenge}, \n      author={Mikayel Samvelyan and Tabish Rashid and Christian Schroeder de Witt and Gregory Farquhar and Nantas Nardelli and Tim G. J. Rudner and Chia-Man Hung and Philip H. S. Torr and Jakob Foerster and Shimon Whiteson},\n      year={2019},\n      eprint={1902.04043},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/1902.04043}, \n}"
+  }
+]
